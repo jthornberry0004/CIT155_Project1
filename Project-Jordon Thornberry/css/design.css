@@ -1,0 +1,490 @@
+body
+{
+	background-image: url(../img/background.jpg);
+}
+
+img {
+	width: auto;
+	height: auto;
+	padding: 0.5em;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #FFD700;
+	background-color: #FF0000
+}
+
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and pad-ding for list items within the navigation */
+nav li {
+	display: inline-block;
+	background-color: #FF0000; 
+	list-style-type: none; 
+	margin: 0.4em; 
+	padding: 0.5em;  
+}
+
+/* Style changes navigation link text color to white and re-moves the underline */
+nav li a { 
+	color: #FFD700; 
+	text-decoration: none; 
+}
+
+table {
+	width: 75%;
+	border: thick double #000000;
+	border-collapse: separate;
+	background-color: #FF0000;
+	color: #ffff00;
+	font-size: 11pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for group1 class */
+.group1 {
+	width: 30%;
+	background-color: #FF0000;
+}
+
+/* Style for group2 class */
+.group2 {
+	width: 40%;
+	background-color: #FF0000;
+}
+
+/* Style for third column in table */
+.thirdColumn {
+	color: #ffff00;
+}
+
+/* Style for table rows */
+tr {
+	vertical-align: top;
+}
+
+/* Style for table data cells */
+td {
+	border: 1px ridge #000000;
+}
+
+/* Style for all table cells */
+td, th {
+	padding: .25em;
+}
+
+#banner {
+	text-align: center;
+	
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	width: 100%;
+	display: inline-block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 2em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: .5em;
+	background-color: #FF0000;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+.svc {
+	display: inline-block;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+label {
+	display: block;
+}
+
+input {
+	display: block;
+}
+
+.first
+	{
+		float:left;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #FF0000;
+		background: linear-gradient(#000000, #FF0000);
+		color: #ffff00;
+	}
+	
+.second
+	{
+		float:left;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #0000ff;
+		background: linear-gradient(#000000, #0000ff);
+		color: #ffff00;
+	}
+	
+.third
+	{
+		float:left;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #228B22;
+		background: linear-gradient(#000000, #228B22);
+		color: #ffff00;
+	}
+
+#DragonsofAutumnTwilight, #DragonsWinterNight, #DragonsSpringDawning
+	{
+		box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .75);
+		margin: 10px
+	}
+	
+.fourth
+	{
+		float:left;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #FF0000;
+		background: linear-gradient(#000000, #ff3300);
+		color: #ffff00;
+	}	
+
+.fifth
+	{
+		float:left;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #0000ff;
+		background: linear-gradient(#000000, #0000cc);
+		color: #ffff00;
+	}
+
+.sixth
+	{
+		float:left;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #228B22;
+		background: linear-gradient(#000000, #4d4d00);
+		color: #ffff00;
+	}
+
+#DragonsofDwarvenDepths, #DragonsoftheHighlordSkies, #DragonsoftheHourglassMage
+	{
+		box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .75);
+		margin: 10px
+	}	
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: 1em;
+	text-align: center;
+	margin-top: 2em;
+	background-color: #FF0000
+}
+
+/* Styles for tablet viewport */
+@media only screen and (min-width: 481px) {
+
+
+
+/* Style specifies display, float, margin, padding, and width for nav list items */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 18%;
+	text-align: center;
+}
+
+/* Style specifies clear and margin for the main element */
+main {
+	clear: left;
+}
+
+/* Style hides the mobile class */
+.mobile {
+	display: none;
+}
+
+/* Style displays the desktop class */
+.desktop {
+	display: inline;
+}
+
+}
+
+/* Styles for desktop viewport */
+@media only screen and (min-width: 950px) {
+
+/* Style specifies width for container */ 
+#container {
+	width: 100%;
+}
+
+/* Style specifies width for image */
+img {
+	width: auto;
+	height: auto;
+	padding: 0.5em;
+}
+
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+    margin: 0;
+	padding-left: 30.00%;
+	padding-right: 0.50%;
+	text-align: center;
+	list-style-type: none;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding */ 
+nav li {
+	display: inline;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0; 
+	padding: 0;
+	width: 20%;
+	white-space: nowrap;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #CCFFCC;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+table {
+	width: 75%;
+	border: thick double #000000;
+	border-collapse: separate;
+	background-color: #FF0000;
+	color: #ffff00;
+	font-size: 14pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for group1 class */
+.group1 {
+	width: 30%;
+	background-color: #FF0000;
+}
+
+/* Style for group2 class */
+.group2 {
+	width: 40%;
+	background-color: #FF0000;
+}
+
+/* Style for third column in table */
+.thirdColumn {
+	color: #ffff00;
+}
+
+/* Style for table rows */
+tr {
+	vertical-align: top;
+}
+
+/* Style for table data cells */
+td {
+	border: 2px ridge #000000;
+}
+
+/* Style for all table cells */
+td, th {
+	padding: .5em;
+}
+
+
+/* Style for main specifies border, border radius, box-shadow, and margin */
+main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+		overflow: auto;
+		text-decoration: none;
+} 
+
+a {
+	text-decoration: none;
+}
+
+form ul {
+	list-style-type: none;
+}
+
+.svc {
+	display: inline-block;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+label {
+	display: block;
+}
+
+input {
+	display: block;
+}
+
+.first
+	{
+		float:left;
+		width: 25%;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #FF0000;
+		background: linear-gradient(#000000, #FF0000);
+		color: #ffff00;
+	}
+	
+.second
+	{
+		float:left;
+		width:25%;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #0000ff;
+		background: linear-gradient(#000000, #0000ff);
+		color: #ffff00;
+	}
+	
+.third
+	{
+		float:left;
+		width:25%;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #228B22;
+		background: linear-gradient(#000000, #228B22);
+		color: #ffff00;
+	}
+	
+#DragonsofAutumnTwilight, #DragonsofWinterNight, #DragonsofSpringDawning
+	{
+		box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .75);
+		margin: 10px
+	}
+	
+.fourth
+	{
+		float:left;
+		width:25%;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #FF0000;
+		background: linear-gradient(#000000, #ff3300);
+		color: #ffff00;
+	}
+	
+.fifth
+	{
+		float:left;
+		width:25%;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #0000ff;
+		background: linear-gradient(#000000, #0000cc);
+		color: #ffff00;
+	}
+	
+.sixth
+	{
+		float:left;
+		width:25%;
+		padding:20px;
+		margin:15px;
+		border:7px double #FFD700;
+		background-color: #228B22;
+		background: linear-gradient(#000000, #4d4d00);
+		color: #ffff00;
+	}
+
+#DragonsofDwarvenDepths, #DragonsoftheHighlordSkies, #DragonsoftheHourglassMage
+	{
+		box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .75);
+		margin: 10px
+	}
+	
+footer {
+	font-size: 1em;
+	text-align: center;
+	margin-top: 2em;
+	background-color: #FF0000;
+	text-decoration: none;
+}
+}
